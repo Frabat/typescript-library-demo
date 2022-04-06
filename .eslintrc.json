@@ -21,6 +21,9 @@
       "error",
       { "allowWholeFile": true }
     ],
+    "functional/immutable-data": "off",
+    "functional/prefer-readonly-type": "off",
+
     "eslint-comments/no-unused-disable": "error",
     "import/order": [
       "error",
