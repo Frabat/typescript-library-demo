@@ -1,12 +1,9 @@
 import { Triplet } from '../types/types';
-export function threeNumberSum(
-  array: number[],
-  targetSum: number
-): readonly Triplet[] {
+export function threeNumberSum(array: number[], targetSum: number): Triplet[] {
   // Write your code here.
   array.sort((a: number, b: number) => a - b);
 
-  const results: readonly Triplet[] = [];
+  const results: Triplet[] = [];
 
   // eslint-disable-next-line functional/no-loop-statement
   for (
